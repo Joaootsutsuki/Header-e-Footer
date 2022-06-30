@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2? family= Oswald & family= Radio+Canada:ital,wght@0,300;1,300 & display=swap");
+
+:root {
+  --fonte: Radio Canada;
+  --header-color: ;
+  --footer-color: ;
+  --fonte-color: #00000;
+}
+
+body {
+  color: var(--footer-color);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: aqua;
+  max-width: 100%;
+  padding: 35px;
+  overflow: hidden;
+}
+
+header h1 {
+  float: left;
+}
+
+main ul li {
+  background-color: blue;
+  padding: 15px;
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style: none;
+}
+.container {
+  float: right;
+  display: block;
+  width: 50%;
+}
+
+footer {
+  background-color: aqua;
+  width: 100%;
+  padding: 25px;
+  bottom: 0;
+  position: fixed;
+}
+
+.lista {
+  display: block;
+  width: 20%;
+  float: left;
+}
+main {
+  display: inline;
+  width: 100%;
+}
