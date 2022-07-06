@@ -2,13 +2,16 @@
 
 :root {
   --fonte: Radio Canada;
-  --header-color: ;
-  --footer-color: ;
-  --fonte-color: #00000;
+  --header-color: #a1bba2;
+  --footer-color: #a1bba2;
+  --list-color: #a1bba2;
+  --fonte-color: #000000;
+  --main-color: #ffffff;
 }
 
 body {
-  color: var(--footer-color);
+  color: var(--fonte-color);
+  background-color: var(--main-color);
 }
 
 * {
@@ -18,7 +21,7 @@ body {
 
 header {
   width: 100%;
-  background-color: aqua;
+  background-color: var(--header-color);
   max-width: 100%;
   padding: 35px;
   overflow: hidden;
@@ -29,8 +32,8 @@ header h1 {
 }
 
 main ul li {
-  background-color: blue;
-  padding: 15px;
+  background-color: var(--list-color);
+  padding: 10px;
   width: 100px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -39,11 +42,15 @@ main ul li {
 .container {
   float: right;
   display: block;
-  width: 50%;
+  width: 85%;
+  padding: 50px;
+}
+main div p{
+  padding: 5px;
 }
 
 footer {
-  background-color: aqua;
+  background-color: var(--footer-color);
   width: 100%;
   padding: 25px;
   bottom: 0;
@@ -52,8 +59,9 @@ footer {
 
 .lista {
   display: block;
-  width: 20%;
+  width: 15%;
   float: left;
+  padding: 20px;
 }
 main {
   display: inline;
